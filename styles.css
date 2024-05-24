@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    font-size: 24px;
+}
+
+.features-and-signup {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.features-box, .signup-box {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.features-box {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.signup-box {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.no-border {
+    border: none;
+}
+
+.features-box h2 {
+    text-align: left;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+h2.left-align {
+    text-align: left;
+}
+
+.spaced-paragraph {
+    margin-top: 15px; /* Add space between the title and paragraph */
+}
