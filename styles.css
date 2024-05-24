@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #1a73e8;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero h3 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+
+.features-and-signup {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.features-box {
+    width: 60%;
+}
+
+.signup-box {
+    width: 35%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box input,
+.signup-box button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.signup-box button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
